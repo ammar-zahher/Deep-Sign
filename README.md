@@ -1,27 +1,9 @@
-This project is a communication bridge between hearing people and the deaf community. It uses Artificial Intelligence to help them talk to each other.
+This research project aims to enable hearing-impaired people to communicate effortlessly. It applies computing techniques to transform the language from videos into sign language understandable by humans.
 
-The system translates spoken language in video files into sign language. This makes it easier for deaf people to understand what is being said.
+The technique employs computing algorithms to accomplish this. Initially, it extracts the audio from videos using an algorithm called MoviePy. Afterward, the extracted audio is processed using Google's Gemini model. This model effectively understands the speech regardless of the speaker's accent.
 
-It does this by taking the audio from video files using MoviePy.
+Then the extracted speech is transformed into text by cleaning the text for sign language compatibility. Subsequently, the cleaned text is matched against pre-recorded sign language videos. Finally, the process displays the sign language videos using the OpenCV technique.
 
-The Artificial Intelligence is powered by Google Gemini 3.1 Flash-Lite. This helps to transcribe speech into text quickly and accurately even for complex Arabic dialects.
+This project demonstrates the use of technology in solving issues related to the hearing-impaired population. It allows them to communicate easily without challenges.
 
-When the text is ready it gets cleaned up to remove words. Then it gets broken down into parts that can be used for sign language.
-
-A custom Python program then matches these parts to sign language video clips stored on the computer.
-
-The final result is shown using OpenCV. This displays an continuous translation of what was originally said.
-
-This system is very good at performing on strong computers. It can also be. Made more secure in the future.
-
-The project shows how machine learning can be used to solve world problems. It helps to include all people in the world.
-
-Project Structure
-
-Untitled-1.py: This is the program for getting audio and using Artificial Intelligence.
-
-sign_logic.py: This is a special program for playing videos and matching words to signs.
-
-sign_videos: This is a collection of sign language video clips.
-
-temp_audio.mp3: This is a file used when transcribing audio, in the cloud.
+In case you require further details concerning this project, watch a YouTube video at https://www.youtube.com/@AmmarZahher. The video gives comprehensive information about the project.
